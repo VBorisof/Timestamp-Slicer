@@ -1,4 +1,4 @@
-###Timestamp-Slicer###
+### Timestamp-Slicer
 
 Timestamp-Slicer is a wrapper around [ffmpeg][1] that slices audio files into slices that are 
 defined by a file containing timestamps. 
