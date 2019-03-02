@@ -1,7 +1,9 @@
-###Timestamp-Slicer###
+### Timestamp-Slicer
 
-Timestamp-Slicer is a wrapper around [ffmpeg][1] that slices audio files into slices that are 
+Timestamp-Slicer is a dotnet core wrapper around [ffmpeg][1] that slices audio files into slices that are 
 defined by a file containing timestamps. 
+
+Usage assumes ffmpeg is installed on your machine.
 
 This can be used to, for example, break a monolithic music album recording into separate songs.
 In order to do this, you will need to feed the Timestamp-Slicer a file that contains information
